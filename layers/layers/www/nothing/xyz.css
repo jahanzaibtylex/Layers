@@ -1,0 +1,1576 @@
+.headerbg {
+    background-color: #f6e1e1f0;
+    max-height: 79px;
+    padding-top: 30px;
+
+
+
+
+}
+
+.counter {
+    margin-top: -9px;
+    margin-left: -8px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+
+
+}
+.lnk{
+    color: black; 
+    text-decoration: none;
+  }
+
+li {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.banner {
+    width: 100%;
+
+}
+
+.bannertag {
+    margin-top: -300px;
+    margin-left: 50px;
+
+}
+
+.hec {
+    padding-top: 50px;
+    width: 652px;
+
+}
+
+@import url(https://db.onlinewebfonts.com/c/089a42d7bd4f55247e084942b003402e?family=FoglihtenNo07);
+
+.layers {
+    color: #B09C6D;
+    font-family: FoglihtenNo07;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.bakeshop {
+    color: #242424;
+    font-family: FoglihtenNo07;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@font-face {
+    font-family: "FoglihtenNo07";
+    src: url("https://db.onlinewebfonts.com/t/089a42d7bd4f55247e084942b003402e.eot");
+    src: url("https://db.onlinewebfonts.com/t/089a42d7bd4f55247e084942b003402e.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/089a42d7bd4f55247e084942b003402e.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/089a42d7bd4f55247e084942b003402e.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/089a42d7bd4f55247e084942b003402e.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/089a42d7bd4f55247e084942b003402e.svg#FoglihtenNo07")format("svg");
+}
+
+.lnstyle {
+
+    stroke-width: 5px;
+    stroke: #777;
+    width: 39.377px;
+    height: 25px;
+
+}
+
+.welcomto {
+    color: #777;
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@import url(https://db.onlinewebfonts.com/c/356eda0ee11b3a6e8e6e97177f515f42?family=Heebo);
+
+@font-face {
+    font-family: "Heebo";
+    src: url("https://db.onlinewebfonts.com/t/356eda0ee11b3a6e8e6e97177f515f42.eot");
+    src: url("https://db.onlinewebfonts.com/t/356eda0ee11b3a6e8e6e97177f515f42.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/356eda0ee11b3a6e8e6e97177f515f42.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/356eda0ee11b3a6e8e6e97177f515f42.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/356eda0ee11b3a6e8e6e97177f515f42.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/356eda0ee11b3a6e8e6e97177f515f42.svg#Heebo")format("svg");
+}
+
+.intropara {
+
+
+    height: auto;
+    flex-shrink: 0;
+    color: #777;
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner2_intro {
+
+    height: auto;
+    padding-top: 100px;
+
+
+}
+
+.banner2_button {
+    max-width: 100%;
+    min-width: 100%;
+    width: auto;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: #A49165;
+    border: 0px;
+}
+
+.banner2_button_text {
+    color: #FFFFFF;
+    font-family: Heebo;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+ .category {
+            cursor: pointer;
+        }
+.data {
+            display: none;
+        }
+.active {
+            display: block;
+        }
+        
+.intropara2 {
+
+    max-width: 500px;
+    min-width: 300px;
+    height: auto;
+    flex-shrink: 0;
+    color: #777;
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner2_img1 {
+    width: 473px;
+    height: 568px;
+    flex-shrink: 0;
+
+}
+
+.banner3_img1 {
+    height: 995px;
+    align-self: stretch;
+}
+
+@media (width:576px) {
+    .intropara {
+        width: 600px;
+    }
+}
+
+.subimg {
+    width: 590px;
+    height: 589px;
+    flex-shrink: 0;
+}
+
+.bakingquality {
+    color: #000;
+    font-family: Sen;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.desertintown {
+    color: #000;
+    font-family: Sen;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text_align {
+    text-align: justify;
+}
+
+.banner2bg {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    background: #FFFBF1;
+
+}
+
+.banner2over {
+    background-image: url(files/Vector.svg);
+
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+
+.appsection {
+    width: 466px;
+    height: 71px;
+    flex-shrink: 0;
+    color: #777;
+    text-align: center;
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@import url(https://db.onlinewebfonts.com/c/44f559cf5c8a1225b3858746c60b9162?family=Sen);
+
+@font-face {
+    font-family: "Sen";
+    src: url("https://db.onlinewebfonts.com/t/44f559cf5c8a1225b3858746c60b9162.eot");
+    src: url("https://db.onlinewebfonts.com/t/44f559cf5c8a1225b3858746c60b9162.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/44f559cf5c8a1225b3858746c60b9162.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/44f559cf5c8a1225b3858746c60b9162.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/44f559cf5c8a1225b3858746c60b9162.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/44f559cf5c8a1225b3858746c60b9162.svg#Sen")format("svg");
+}
+
+.navbarmenu {
+    color: #000;
+    font-family: Heebo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.cardtitle {
+    color: #242424;
+    font-family: FoglihtenNo07;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.carddesc {
+    width: 286px;
+    height: 71px;
+    flex-shrink: 0;
+    color: #777;
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menucarddesc {
+    width: 230px;
+    height: auto;
+    flex-shrink: 0;
+    color: #777;
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cardrs {
+    color: #B09C6D;
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.cardadress {
+    width: 120px;
+    height: 21px;
+    flex-shrink: 0;
+    color: #777;
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cardbtn {
+    width: 107px;
+    height: 42px;
+    flex-shrink: 0;
+    background: #A49165;
+    border: 0;
+}
+
+.cardbtn_text {
+    width: 66.238px;
+    height: 19.95px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Heebo;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cardheader1 {
+    color: #B09C6D;
+    font-family: FoglihtenNo07;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cardheader2 {
+    color: #242424;
+    font-family: FoglihtenNo07;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.banner3bg {
+    background-image: url(files/App\ Section\(1\).png);
+    width: 100%;
+    flex-shrink: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ios {
+    color: #B09C6D;
+    font-family: FoglihtenNo07;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.android {
+    color: #242424;
+    font-family: FoglihtenNo07;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+.appbtn {
+    margin-top: 80px;
+}
+
+.freedeliver {
+    color: #B09C6D;
+    font-family: FoglihtenNo07;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.apporders {
+    color: #242424;
+    font-family: FoglihtenNo07;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.banner3sub {
+    margin-top: 70px;
+    margin-left: 80px;
+
+}
+
+.banner3size {
+    width: 1511px;
+    height: 501px;
+    flex-shrink: 0;
+}
+
+.sundae {
+    width: 286px;
+    height: 418px;
+    flex-shrink: 0;
+}
+
+.crdimg {
+    margin-left: 100px;
+    margin-top: -40px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.testinmonialHead1 {
+    color: #242424;
+    font-family: FoglihtenNo07;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.testimonialHead2 {
+    color: #B09C6D;
+    font-family: FoglihtenNo07;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.seclast1 {
+    color: #242424;
+    text-align: center;
+    font-family: FoglihtenNo07;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.seclast2 {
+    color: #B09C6D;
+    font-family: FoglihtenNo07;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.desidaa {
+    margin-left: -148px;
+}
+
+.desidaa2 {
+    margin-right: -20px;
+}
+
+.footerbg {
+    background-image: url(files/Footer-pgtfyxmge7oh9z6dmm1qzkfqpapl739rjbgcqh9rl8\ 2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+
+
+}
+.login{
+    font-family: FoglihtenNo07;
+font-size: 26px;
+font-weight: 500;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.username{
+    font-family: Heebo;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.userin{
+    width: 460px;
+height: 40px;
+background-color: #dddddd;
+border: none;
+
+}
+.lostpasswrd{
+    font-family: Heebo;
+font-size: 14px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0em;
+color: #B09C6D;
+
+}
+.rememberme{
+    font-family: Heebo;
+font-size: 14px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+color: #333333;
+}
+
+.loginbtn{
+    width:78px;
+height: 42px;
+top: 649px;
+left: 265px;
+padding: 12px, 21px, 12px, 21px;
+gap: 10px;
+background-color: #B09C6D;
+color: white;
+border: none;
+
+}
+
+.registerbtn{
+    width: 91px;
+    height: 42px;
+    top: 703px;
+    left: 803px;
+    padding: 12px, 9px, 12px, 9px;
+    gap: 10px;
+    background-color: #B09C6D;
+    color: white;
+    border: none;
+    
+}
+.para{
+    font-family: Heebo;
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+color: #777777;
+
+
+}
+.goldpara{
+    color: #B09C6D;
+}
+.footermark {
+    color: #777;
+    text-align: center;
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 70px;
+}
+
+.footermark1 {
+    color: #B09C6D;
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footermark2 {
+    color: #777;
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.socialicons {
+    margin-top: -15px;
+}
+
+.rotation {
+    transform: rotate(-90deg);
+
+}
+
+.lstfooter {
+    margin-top: -60px;
+}
+
+
+/* _____________________________________________ */
+
+
+
+
+.direction1 {
+    text-align: left;
+    margin-left: 50px;
+
+}
+
+.direction2 {
+    text-align: right;
+    margin-right: 50px;
+
+}
+
+
+.direction1 button {
+    font-family: cursive;
+    font-weight: bold;
+    background-color: #ffffff44;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 0.5s;
+    margin: 0 10px;
+}
+
+.direction2 button {
+    font-family: cursive;
+    font-weight: bold;
+    background-color: #ffffff44;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 0.5s;
+    margin: 0 10px;
+}
+
+.direction1 button:hover {
+    background-color: rgb(239, 197, 197);
+}
+
+.direction2 button:hover {
+    background-color: rgb(239, 197, 197);
+}
+
+.item {
+
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    transition: 0.5s;
+    margin: 10px;
+    scroll-snap-align: start;
+    scroll-snap-type: none;
+}
+
+.itemmenu {
+
+    width: 247px;
+    height: auto;
+    overflow: hidden;
+    transition: 0.5s;
+    margin: 10px;
+    scroll-snap-align: start;
+    scroll-snap-type: none;
+}
+
+.itemsundae {
+
+    width: auto;
+    max-width: 350px;
+    height: auto;
+    overflow: hidden;
+    transition: 0.5s;
+    margin: 10px;
+    scroll-snap-align: start;
+    scroll-snap-type: none;
+}
+
+.itemcake {
+
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+    transition: 0.5s;
+    margin: 10px;
+    scroll-snap-align: start;
+    scroll-snap-type: none;
+}
+
+.itemcupcake {
+
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+    transition: 0.5s;
+    margin: 10px;
+    scroll-snap-align: start;
+    scroll-snap-type: none;
+}
+
+.itemdeserts {
+
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+    transition: 0.5s;
+    margin: 10px;
+    scroll-snap-align: start;
+    scroll-snap-type: none;
+}
+
+
+#list {
+    display: flex;
+    width: max-content;
+}
+
+#listdeserts {
+    display: flex;
+    width: max-content;
+}
+
+#listcake {
+    display: flex;
+    width: fit-content;
+}
+
+
+#listcupcake {
+    display: flex;
+    width: max-content;
+}
+
+#listsundae {
+    display: flex;
+    width: max-content;
+
+}
+
+#formList {
+    width: 1600px;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 15px auto 50px;
+    scroll-behavior: smooth;
+    scroll-snap-type: none;
+    height: auto;
+
+}
+
+#formcake {
+    width: 1550px;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 15px auto 50px;
+    scroll-behavior: smooth;
+    scroll-snap-type: none;
+    height: auto;
+
+}
+  .ddbox {
+width: 942px;
+  height: 474px;
+  position: absolute;
+  display: none;
+  top: 50px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 45px;
+  z-index: 999;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  
+
+  }
+
+  .abtus {
+    text-wrap: nowrap;
+    display: inline-block;
+   
+  }
+
+  .abtus:hover .ddbox {
+    display: block;
+  }
+
+#formListdeserts {
+    width: 690px;
+    ;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 15px auto 50px;
+    scroll-behavior: smooth;
+    scroll-snap-type: none;
+    height: auto;
+
+}
+
+#formListcake {
+
+
+    width: 690px;
+    overflow: hidden;
+    margin: 15px auto 50px;
+    scroll-behavior: smooth;
+    scroll-snap-type: none;
+    height: auto;
+
+}
+
+#formListsundae {
+    width: 690px;
+    min-width: auto;
+    overflow: hidden;
+    margin: 15px auto 50px;
+    scroll-behavior: smooth;
+    scroll-snap-type: none;
+    height: auto;
+
+}
+
+#formListcupcake {
+    width: 690px;
+    overflow: hidden;
+    margin: 15px auto 50px;
+    scroll-behavior: smooth;
+    scroll-snap-type: none;
+    height: auto;
+
+}
+
+.counter {
+    background-color: #BBBBBB26;
+    position: relative;
+}
+
+.counterbtn {
+    background-color: white;
+    border: 0;
+    font-size: 25px;
+}
+
+@import url(https://db.onlinewebfonts.com/c/3d9baeab120f944c61f043b21730bb51?family=Intro+Rust+G+Base);
+
+.cart {
+    font-family: "Intro Rust G Base";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 10px;
+
+}
+
+.cartimg {
+    height: 200px;
+    width: 200px;
+
+
+}
+
+.cntctbtxt {
+    font-family: Heebo;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+
+    color: white;
+}
+
+.cntctbtxt1 {
+    font-weight: 400px;
+    font-family: Heebo;
+    font-size: 14px;
+
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.crtbtn {
+    width: 150px;
+    height: 50px;
+    top: 581px;
+    left: 1263px;
+    background-color: #B09C6D;
+    border: none;
+
+}
+
+.crtbtntxt {
+    font-family: Heebo;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+
+.page1 {
+    background-color: #BBBBBB;
+    border: 0;
+    font-size: 20px;
+
+
+}
+
+.pageactv {
+    background-color: #B09C6D;
+    border: 0;
+    font-size: 20px;
+
+}
+
+.counternmbr {
+    position: absolute;
+    margin-top: -12px;
+    margin-left: -8px;
+}
+
+.someimg {
+    background-image: url(files/cak.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 817px;
+    height: 500px;
+
+
+}
+
+.banneraboutus {
+    background-image: url(files/Title-4\ 1.svg);
+margin-top:0px;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.bannertext {
+    width: 311px;
+    height: 88px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: FoglihtenNo07;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sandwich {
+    color: #FFF;
+    font-family: Heebo;
+    font-size: 14.4px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sandwich2 {
+    color: #FFF;
+    font-family: Heebo;
+    font-size: 14.4px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mainblocktext {
+    text-align: center;
+    align-content: end;
+    margin-top: 150px;
+}
+
+.cntcthead1 {
+    font-family: Arial;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #777777;
+
+}
+
+.cntcthead2 {
+    font-family: FoglihtenNo07;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+
+    color: #000000;
+
+
+}
+
+.locin {
+    width: 400px;
+    height: 41px;
+    top: 736px;
+    left: 63px;
+    background-color: #BBBBBB26;
+    border: none;
+
+
+}
+
+.cntcthead3 {
+    font-family: FoglihtenNo07;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    color: #B09C6D;
+
+
+}
+
+.mapimg {
+    width: 1007px;
+  
+    left: 38px;
+
+}
+
+.addtxt {
+    font-family: FoglihtenNo07;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B09C6D;
+
+}
+
+.addtxt1 {
+    font-family: Heebo;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.addbtn {
+    width: 150px;
+    height: 60px;
+    top: 71px;
+    left: 7px;
+    padding: 12px, 9px, 12px, 9px;
+    gap: 10px;
+    background-color: #B09C6D;
+    border: none;
+    color: white;
+
+}
+
+.kms {
+    color: #6B6969;
+
+}
+
+.psome {
+    color: #777;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 80px;
+
+}
+
+.heado1 {
+    color: #242424;
+    text-align: center;
+    font-family: FoglihtenNo07;
+    font-size: 53px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.heado2 {
+    color: #B09C6D;
+    font-family: FoglihtenNo07;
+    font-size: 53px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.po {
+    color: #777;
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.abt {
+    color: #242424;
+    font-family: FoglihtenNo07;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.abt2 {
+    color: #B09C6D;
+    font-family: FoglihtenNo07;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.pdiv {
+    max-width: 485px;
+    min-width: 300;
+    width: auto;
+    height: 247px;
+    flex-shrink: 0;
+}
+
+.pdivtypo {
+    color: #777;
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.divmain {
+    margin-top: 120px;
+}
+
+.cattxt {
+    float: left;
+    color: #FFFFFF;
+}
+
+.activetxt {
+    text-decoration: underline;
+    text-decoration-color: #B09C6D;
+    float: left;
+    text-decoration-thickness: 2px;
+    color: white;
+}
+
+.prdnum {
+    font-family: Heebo;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF99;
+    white-space: nowrap;
+
+}
+
+.menuf1 {
+    width: 195px;
+    height: 39px;
+    top: 408px;
+    left: 922px;
+    background-color: #b9b8b8;
+    border: none;
+    margin-top: -10px;
+
+}
+
+::placeholder {
+    color: #5b5b5b;
+
+}
+
+.snd {
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.snd1 {
+    color: #A5A5A5;
+}
+
+.f2 {
+    width: 327px;
+    height: 40px;
+    top: 528px;
+    left: 164px;
+    background-color: #BBBBBB80;
+
+
+}
+
+.f3 {
+    width: 210px;
+    height: 40px;
+    top: 528px;
+    left: 499px;
+    background-color: #BBBBBB80;
+    border: none;
+    display: flex;
+
+
+}
+
+.in1 {
+    background: transparent;
+    border: none;
+    padding-top: 8px;
+
+}
+
+.f4 {
+    padding-left: 15px;
+    border: none;
+    padding-right: 15px;
+    text-align: center;
+
+
+}
+
+.aply {
+    font-family: Heebo;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+
+
+
+}
+
+.bgdiv {
+    background-image: url(files/image\ 2.png);
+    width: 247px;
+    height: 246px;
+    top: 5px;
+
+}
+
+.chotidiv {
+    width: 78px;
+    height: 18px;
+    top: 5px;
+    left: 9px;
+    font-family: Heebo;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #D4553A;
+    color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+
+
+
+}
+
+.updown {
+    width: auto;
+    height: 400px;
+    border: none;
+    padding-top: 10px;
+
+
+}
+
+.updown {
+    overflow: scroll;
+    scrollbar-color: grey;
+    scrollbar-width: 20px;
+
+}
+
+.dzine {
+    font-family: FoglihtenNo07;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+
+
+}
+
+.gold {
+    color: #B09C6D;
+}
+
+.grey {
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #777777;
+}
+
+.reachusout {
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #777777;
+
+}
+
+.feedback {
+    font-family: FoglihtenNo07;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+
+
+}
+
+.homedbox {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    display: none;
+    top: 50px;
+    background-color: white;
+    display: none;
+    border-radius: 10px;
+    padding: 45px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 999;
+}
+
+.homed {
+    text-wrap: nowrap;
+    display: inline-block;
+}
+
+.homed:hover .homedbox {
+    display: block;
+}
+
+.homedimg {
+    background-image: url(files/cak.svg);
+    width: 164px;
+    height: 164px;
+    background-position: center;
+}
+
+.menudbox {
+    width: auto;
+    height: 350px;
+    position: absolute;
+    display: none;
+    top: 50px;
+    background-color: white;
+    display: none;
+    border-radius: 10px;
+    padding: 45px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index:999;
+}
+
+.menud {
+    text-wrap: nowrap;
+    display: inline-block;
+}
+
+.menud:hover .menudbox {
+    display: block;
+}
+
+.menuimg {
+    background-image: url(files/cak.svg);
+    width: 164px;
+    height: 164px;
+    background-position: center;
+}
+
+.menutxt {
+    /* color: #B09C6D; */
+    color: black;
+    font-family: FoglihtenNo07;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.menuhead {
+    font-family: FoglihtenNo07;
+}
+
+.menutxtRs {
+    color: #B09C6D;
+    font-family: FoglihtenNo07;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.homedtxt {
+    /* color: #B09C6D; */
+    color: black;
+    font-family: FoglihtenNo07;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.homehead {
+    font-family: FoglihtenNo07;
+}
+
+.homedimg {
+    background-image: url(files/cak.svg);
+    width: 164px;
+    height: 164px;
+    background-position: center;
+}
+
+.homedtxt {
+    /* color: #B09C6D; */
+    color: black;
+    font-family: FoglihtenNo07;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.homehead {
+    font-family: FoglihtenNo07;
+}
+
+.gold {
+    color: #B09C6D;
+}
+
+.homedtxtRs {
+    color: #B09C6D;
+    font-family: FoglihtenNo07;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+
+
+.suggestion {
+    color: #B09C6D;
+}
+
+.in {
+    width: 177px;
+    height: 43px;
+    top: 1412px;
+    left: 768px;
+    padding: 11px, 24px, 11px, 24px;
+    border: solid;
+    border-width: thin;
+    gap: 10px;
+   border-color: #B09C6D;
+   background-color: #f7f7f7;
+   padding-left: 10px;
+
+}
+textarea{
+    background-color: #f7f7f7 ;
+    padding-left: 5px;
+    border: solid;
+    border-color: #B09C6D;
+    border-width: thin;
+
+}
+
+@media (max-width: 896px) {
+    #formListcake {
+        width: 300px;
+    }
+
+    #formListsundae {
+        width: 300px;
+    }
+
+    #formListdeserts {
+        width: 300px;
+    }
+
+    #formListcupcake {
+        width: 300px;
+    }
+
+    #formList {
+        width: 300px;
+    }
+
+    .someimg {
+        width: 350px;
+        height: 200px;
+    }
+    .bannertext{
+        font-size:40px;
+    }
+
+}
+
+@media (max-width : 688px) {}
+
+
+
+/* ----- */

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://db.onlinewebfonts.com/c/089a42d7bd4f55247e084942b003402e?family=FoglihtenNo07" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/356eda0ee11b3a6e8e6e97177f515f42?family=Heebo" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/44f559cf5c8a1225b3858746c60b9162?family=Sen" rel="stylesheet">
+    <link rel="stylesheet" href="xyz.css">
+    <link href="https://db.onlinewebfonts.com/c/3d9baeab120f944c61f043b21730bb51?family=Intro+Rust+G+Base"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container-fluid justify-content-center ">
+        {% block page_content %}
+        <div class="banneraboutus" style="height: 500px;">
+            <!-- header -->
+
+            <!--  -->
+            <div class="d-flex justify-content-center ">
+                <div class="mainblocktext ">
+                    <h1 class="bannertext">Menu</h1>
+                </div>
+            </div>
+
+            <div class="d-sm-flex hidden justify-content-center ">
+                <div class="d-flex me-5 category" onclick="toggleData('allproducts')">
+                    <img src="files/all products link 1.svg" alt="">
+                    <div class="ms-3">
+                        <div>
+                            <span class="activetxt">All</span>
+                        </div>
+                        <div>
+                            <span class="prdnum">Products</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex me-5 category" onclick="toggleData('brownie')">
+                    <img src="files/icons8-double-chocolate-cake-64 1.svg" alt="">
+                    <div class="ms-3">
+                        <div>
+                            <span class=" cattxt">Brownies</span>
+                        </div>
+                        <div>
+                            <span class="prdnum"> 6 Products</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex me-5 category" onclick="toggleData('cookies')">
+                    <img src="" alt="">
+                    <div class="ms-3">
+                        <div>
+                            <span class="cattxt">Cookies</span>
+                        </div>
+                        <div>
+                            <span class="prdnum">4 Products</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="d-flex me-5 category" onclick="toggleData('cupcakes')">
+                    <img src="files/icons8-cupcake-60 1.svg" alt="">
+                    <div class="ms-3">
+                        <div>
+                            <span class="cattxt">Cupcakes</span>
+                        </div>
+
+                        <div>
+                            <span class="prdnum">21 Products</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex me-5 category" onclick="toggleData('desserts')">
+                    <img src="files/icons8-cookie-64 1.svg" alt="">
+                    <div class="ms-3">
+                        <div>
+                            <span class="cattxt ">Desserts</span>
+                        </div>
+
+                        <div>
+                            <span class="prdnum"> 10 Products</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex me-5 category" onclick="toggleData('sundae')">
+                    <img src="files/icons8-ice-cream-in-waffle-64 1.svg" alt="">
+                    <div class="ms-3">
+                        <div>
+                            <span class="cattxt">Sundae</span>
+                        </div>
+
+                        <div>
+                            <span class="prdnum">7 Products</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid justify-content-center">
+            <div class="row">
+                <div class="col-10">
+                    <div class="row mt-3">
+                        <div class="col-12 col-sm-9">
+                            <span class="snd">Home </span> <span class="snd1">/ Menu</span>
+                        </div>
+
+                        <div class="col-3 hidden d-sm-block">
+                            <div class="d-flex">
+                                <div>
+                                    <p>
+                                        Show: 12
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="files/svgexport-1 1.svg" alt="" class="ms-3">
+                                    <img src="files/svgexport-2 1.svg" alt="" class="ms-2">
+                                </div>
+
+                                <div class="ms-4">
+                                    <input type="text" placeholder=" Default Sorting" class="menuf1">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row mt-5" style="height: 110px;">
+                        <div class="col-2 me-5">
+                            <span>
+                                Select </span>
+                            <span>
+                                Location
+                            </span>
+                        </div>
+                        <div class=" col-4">
+                            <div class="f2 ">
+                                <input type="text" placeholder=" Select" class=" f2 in1">
+                            </div>
+                        </div>
+                        <div class="col-5 d-sm-block hidden">
+                            <div class="f3 ">
+                                <input type="text" placeholder=" Enter Pincode/Zipcode" class="in1 f3">
+                                <button class="f4 "><span class="aply">Apply</span></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+
+                    <div class="data" id="allproducts">
+                        <div class="row d-sm-flex d-block justify-content-evenly">
+                            {% set piece = ducky.get_all('Item' , fields=["*"] ) %}
+                            {%- for pitem in piece -%}
+
+                            <div class="col-3">
+
+                                <div class="itemmenu">
+                                    <div style="width: 247px;" class="ms-3">
+                                        <div class="bgdiv position-relative">
+                                            <div class="position-absolute">
+                                                <p class="chotidiv">Best-Selling</p>
+                                            </div>
+                                        </div>
+                                        <p class="cardtitle mt-2">{{pitem.item_name}}</p>
+                                        <p class="menucarddesc">{{pitem.item_description}}!</p>
+                                        <p class="cardrs mt-2">Rs. {{pitem.price}}</p>
+                                        <div class="d-flex">
+                                            <div class="d-inline-flex justify-content-evenly"
+                                                style="height: 30px ; width: 100px;">
+                                                <div><button id="minusBtn" class="counterbtn me-3">-</button></div>
+                                                <div class="counter p-4 rounded-circle ">
+                                                    <p class="counternmbr " id="count">0</p>
+                                                </div>
+                                                <div><button id="plusBtn" class="counterbtn ms-2">+</button></div>
+                                            </div>
+                                            <span class="ms-3 cardadress">Allama Iqbal Town: 1785</span>
+                                        </div>
+                                        <button class="mt-3 cardbtn"><span class="cardbtn_text">Add to
+                                                Cart</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                            {%- endfor -%}
+                        </div>
+                    </div>
+                    <div class="data" id="cupcake">
+                        <div class="row d-sm-flex d-block justify-content-evenly">
+                            {% set cupcake = ducky.get_all('Item' , filters={"web_category": 'CupCake'}, fields=["*"] )
+                            %}
+                            {%- for ccitem in cupcake -%}
+                            <div class="col-3">
+                                <div class="itemmenu">
+                                    <div style="width: 247px;" class="ms-3">
+                                        <div class="bgdiv position-relative">
+                                            <div class="position-absolute">
+                                                <p class="chotidiv">Best-Selling</p>
+                                            </div>
+                                        </div>
+                                        <p class="cardtitle mt-2">{{ccitem.item_name}}</p>
+                                        <p class="menucarddesc">{{ccitem.item_description}}!</p>
+                                        <p class="cardrs mt-2">Rs. {{ccitem.price}}</p>
+                                        <div class="d-flex">
+                                            <div class="d-inline-flex justify-content-evenly"
+                                                style="height: 30px ; width: 100px;">
+                                                <div><button id="minusBtn" class="counterbtn me-3">-</button></div>
+                                                <div class="counter p-4 rounded-circle ">
+                                                    <p class="counternmbr " id="count">0</p>
+                                                </div>
+                                                <div><button id="plusBtn" class="counterbtn ms-2">+</button></div>
+                                            </div>
+                                            <span class="ms-3 cardadress">Allama Iqbal Town: 1785</span>
+                                        </div>
+                                        <button class="mt-3 cardbtn"><span class="cardbtn_text">Add to
+                                                Cart</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                            div {%- endfor -%}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 d-sm-block hidden">
+                    <div class="row">
+                        <div class="col-12">
+                            <div>
+                                <h1 class="cart">cart</h1>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex justify-content-center">
+                                <img src="files/cart-plus.svg" alt="" class="cartimg">
+
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button class="crtbtn ms-4 mt-4"><span class="crtbtntxt">Return to Shop</span></button>
+
+                            </div>
+                            <div class="mt-4">
+                                <p>
+                                    You must have an order with a minimum of
+                                    <span style="color: #B09C6D;"> Rs 1,000 </span> to place your order, your current
+                                    order total is <span style="color:#B09C6D;"> Rs 0.</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="d-flex  justify-content-center">
+                        <div class="pageactv me-2 position-relative d-flex justify-content-center rounded-circle"
+                            style="height: 30px; width: 30px;">
+                            <p class="position-relative">1</p>
+                        </div>
+                        <div class="page1 me-2 position-relative d-flex justify-content-center rounded-circle"
+                            style="height: 30px; width: 30px;">
+                            <p class="position-relative">2</p>
+                        </div>
+                        <div class="page1 me-2 position-relative d-flex justify-content-center rounded-circle"
+                            style="height: 30px; width: 30px;">
+                            <p class="position-relative">3</p>
+                        </div>
+                        <div class="page1 me-2 position-relative d-flex justify-content-center rounded-circle"
+                            style="height: 30px; width: 30px;">
+                            <p class="position-relative">4</p>
+                        </div>
+                        <div class="page1 me-2 position-relative d-flex justify-content-center rounded-circle"
+                            style="height: 30px; width: 30px;">
+                            <p class="position-relative">5</p>
+                        </div>
+                        <div class="page1 me-2 position-relative d-flex justify-content-center rounded-circle"
+                            style="height: 30px; width: 30px;">
+                            <p class="position-relative">6</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% endblock %}
+
+
+
+
+
+
+</body>
+
+</html>
